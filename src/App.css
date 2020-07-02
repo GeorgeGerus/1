@@ -1,0 +1,75 @@
+.error-message {
+  color: red;
+}
+
+.app-container {
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fetch-button {
+  padding: 10px 15px;
+  text-align: center;
+  align-self: center;
+  cursor: pointer;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.layout {
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container {
+  width: 100%;
+  height: 60px;
+  background: #ecf0f1;
+  box-shadow: 0 5px 10px 0 #95a5a6;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.header-item {
+  text-decoration: none;
+  color: #1abc9c;
+  margin-right: 20px;
+}
+
+.header-item:hover, .sign-out-button:hover {
+  color: #16a085;
+}
+
+.header-item:visited {
+  color: #1abc9c;
+}
+
+.layout-body {
+  padding: 20px;
+}
+
+.sign-out-button {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: #1abc9c;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.sign-out-button:active {
+  outline: none;
+}
+
+.sign-in-input {
+  display: block;
+  margin-bottom: 20px;
+}
